@@ -5,6 +5,7 @@ body {
 .theme_mailChimp2 form {
   grid-template-columns: auto max-content;
 }
+ 
 
 .subscribe_message {
   background: #22336a;
