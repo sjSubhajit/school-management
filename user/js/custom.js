@@ -402,3 +402,12 @@ $(".language-change").on("change", function (e) {
   });
 });
 // ---------------------------------------------------------------- End Language Change ----------------------------------------------------------------
+ // Close overlay on button click
+const overlay = document.getElementById("imageOverlay");
+const closeBtn = document.getElementById("closeBtn");
+
+closeBtn.addEventListener("click", function () {
+  overlay.style.display = "none";
+  document.body.classList.remove("no-scroll"); // enable scroll again
+});
+

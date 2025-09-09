@@ -617,7 +617,7 @@ label {
 
 /* line 441, ../../../../../laragon/www/onestschool-frontend/scss/_reset.scss */
 .section_padding {
-  padding: 120px 0px 90px 0;
+  padding: 60px 0px 60px 0;
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1531,7 +1531,7 @@ label {
   border-radius: 4px;
   display: inline-block;
   font-family: "Libre Baskerville", serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
   font-weight: 700;
   padding: 26px 28px;
@@ -1862,7 +1862,7 @@ label {
 
 /* line 280, ../../../../../laragon/www/onestschool-frontend/scss/_btn.scss */
 .readMore_btn .btn_text {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
   color: #22336a;
 }
@@ -1912,11 +1912,10 @@ label {
 
 /* line 21, ../../../../../laragon/www/onestschool-frontend/scss/_title.scss */
 .section__title h3 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.5;
   color: #202e3b;
-  margin-bottom: 17px;
 }
 
 /* line 27, ../../../../../laragon/www/onestschool-frontend/scss/_title.scss */
@@ -3270,12 +3269,12 @@ label {
 .banner_area .banner_item {
   background-image: url(../../backend/uploads/default-images/1920X700.webp);
   background-size: cover;
-  background-position: bottom center;
+  background-position: center center;
   display: flex;
   align-items: center;
   position: relative;
-  padding-top: 175px;
-  padding-bottom: 256px;
+  padding-top: 100px;
+  padding-bottom: 120px;
   position: relative;
   z-index: 0;
 }
@@ -3317,7 +3316,7 @@ label {
 
 /* line 37, ../../../../../laragon/www/onestschool-frontend/scss/_banner.scss */
 .banner_area .banner_text h3 {
-  font-size: 80px;
+  font-size: 30px;
   line-height: 1.5;
   margin-bottom: 15px;
   color: #fff;
@@ -3349,10 +3348,10 @@ label {
 .banner_area .banner_text p {
   font-weight: 500;
   color: #fff;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 30px;
   font-family: "Libre Baskerville", serif;
-  margin-bottom: 43px;
+  margin-bottom: 26px;
   max-width: 900px;
 }
 
@@ -4326,7 +4325,7 @@ label {
 /* line 65, ../../../../../laragon/www/onestschool-frontend/scss/_blog.scss */
 .blog_widget .blog_meta h4 a {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 18px;
   transition: 0.3s;
   line-height: 1.5;
   color: #fff;
@@ -4650,9 +4649,9 @@ label {
 /* line 81, ../../../../../laragon/www/onestschool-frontend/scss/_services.scss */
 .facilites_box .facilites_box_content h4 {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 26px;
   color: #fff;
-  margin-bottom: 23px;
+  margin-bottom: 10px;
   line-height: 1;
 }
 
@@ -4667,7 +4666,7 @@ label {
 /* line 92, ../../../../../laragon/www/onestschool-frontend/scss/_services.scss */
 .facilites_box .facilites_box_content p {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   color: #fff;
   text-transform: capitalize;
 }
@@ -9484,7 +9483,7 @@ label {
 /* line 369, ../../../../../laragon/www/onestschool-frontend/scss/_contact.scss */
 .find_content_widget_wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 27px;
   padding-bottom: 100px;
 }
@@ -9518,6 +9517,11 @@ label {
   padding: 42px 30px 64px 30px;
   position: relative;
   z-index: 0;
+  margin: auto;
+  cursor: pointer;
+}
+.find_content_widget_wrapper .find_content_widget.active {
+  border: 1px dashed #22336a;
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -9545,22 +9549,12 @@ label {
 }
 
 /* line 408, ../../../../../laragon/www/onestschool-frontend/scss/_contact.scss */
-.find_content_widget_wrapper .find_content_widget::before {
-  content: "";
-  position: absolute;
-  left: 15px;
-  top: 15px;
-  bottom: 15px;
-  right: 15px;
-  border: 1px dashed #392c7d;
-  border-radius: 15.56px;
-  z-index: -1;
-}
+
 
 /* line 420, ../../../../../laragon/www/onestschool-frontend/scss/_contact.scss */
 .find_content_widget_wrapper .find_content_widget h3 {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 150%;
   text-transform: capitalize;
   margin: 10px 0 15px 0;
@@ -9569,8 +9563,8 @@ label {
 /* line 428, ../../../../../laragon/www/onestschool-frontend/scss/_contact.scss */
 .find_content_widget_wrapper .find_content_widget p {
   font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 14px;
+  line-height: 20px;
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -12978,7 +12972,7 @@ footer.home_three_footer .main_footer_wrap .footer_widget .footer_logo {
 /* line 20, ../../../../../laragon/www/onestschool-frontend/scss/_footer.scss */
 footer.home_three_footer .main_footer_wrap .footer_widget .description_text {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 160%;
   color: rgba(255, 255, 255, 0.7);
   max-width: 373.94px;
@@ -12987,10 +12981,10 @@ footer.home_three_footer .main_footer_wrap .footer_widget .description_text {
 /* line 27, ../../../../../laragon/www/onestschool-frontend/scss/_footer.scss */
 footer.home_three_footer .main_footer_wrap .footer_widget .subscribe_text {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 19px;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 /* line 33, ../../../../../laragon/www/onestschool-frontend/scss/_footer.scss */
@@ -13001,16 +12995,16 @@ footer.home_three_footer .main_footer_wrap .footer_widget .subscribe_text span {
 /* line 38, ../../../../../laragon/www/onestschool-frontend/scss/_footer.scss */
 footer.home_three_footer .main_footer_wrap .footer_widget .footer_title h3 {
   font-family: "Libre Baskerville", serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   text-transform: capitalize;
   color: #fff;
 }
 
 /* line 49, ../../../../../laragon/www/onestschool-frontend/scss/_footer.scss */
 footer.home_three_footer .main_footer_wrap .footer_widget .footer_links li a {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.8);
   font-family: "Libre Baskerville", serif;
@@ -16623,6 +16617,8 @@ footer.home_three_footer .copyright_area .payment_imgs {
   transition: 0.3s;
   max-width: 100%;
   width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 /* line 12, ../../../../../laragon/www/onestschool-frontend/scss/_gallery.scss */
@@ -19309,7 +19305,7 @@ html[dir="rtl"] a.arrow_btns i {
 
 @media (min-width: 1200px) {
   .banner_area .banner_item {
-    min-height: 890px;
+    min-height: 450px;
     object-fit: cover;
     background-position: center center;
   }
