@@ -15,7 +15,9 @@
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
     <link rel="stylesheet" href="./css/magnific-popup.css">
     <link rel="stylesheet" href="./css/fontawesome.css">
     <link rel="stylesheet" href="./css/themify-icons.css">
@@ -30,7 +32,7 @@
 
 </head>
 
-<body class="default-theme">
+<body class="default-theme ">
 
     <!-- HEADER::START -->
     <header>
@@ -61,13 +63,13 @@
                                     </p>
                                 </div>
                                 <div class="header_topbar_right">
-                                    <div class="offer_btns">
+                                    <!-- <div class="offer_btns">
                                         <button class="btn btn-sm color-btn gradient">Book Now</button>
                                         <button class="btn btn-sm color-btn hue">Subscribe</button>
                                         <button class="btn btn-sm color-btn cycle">Get Started</button>
                                         <button class="btn btn-sm btn-blink fade">Blink Me</button>
                                         <button class="btn btn-sm btn-blink glow">Glowing Blink</button>
-                                    </div>
+                                    </div> -->
                                     <div class="d-none d-lg-block">
                                         <div class="dropdown theme_dropdown p-0 ">
                                             <button id="button" class="btn p-0">
@@ -407,9 +409,7 @@
                         <div class="footer_widget">
                             <div class="footer_logo">
                                 <a href="#">
-                                    <img height="60"
-                                        src="https://beta-school.onesttech.com/backend/uploads/settings/FF3oPh_1752473253.png"
-                                        alt="Logo">
+                                    <img height="60" src="./img/logo-dark.png" alt="Logo">
                                 </a>
                             </div>
                             <p class="description_text">School Management Software (SMS) is a digital solution designed
@@ -425,11 +425,11 @@
                                 <h3>Menus</h3>
                             </div>
                             <ul class="footer_links">
-                                <li><a href="https://beta-school.onesttech.com">Home</a></li>
-                                <li><a href="https://beta-school.onesttech.com/about">About</a></li>
-                                <li><a href="https://beta-school.onesttech.com/news">News</a></li>
-                                <li><a href="https://beta-school.onesttech.com/events">Events</a></li>
-                                <li><a href="https://beta-school.onesttech.com/result">Result</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="news.html">News</a></li>
+                                <li><a href="events.html">Events</a></li>
+                                <li><a href="result.html">Result</a></li>
                             </ul>
                         </div>
                     </div>
@@ -439,18 +439,18 @@
                                 <h3>Pages</h3>
                             </div>
                             <ul class="footer_links">
-                                <li><a href="https://beta-school.onesttech.com/page/privacy_policy">Privacy Policy</a>
+                                <li><a href="privacy_policy.html">Privacy Policy</a>
                                 </li>
-                                <li><a href="https://beta-school.onesttech.com/page/support_policy">Support Policy</a>
+                                <li><a href="support_policy.html">Support Policy</a>
                                 </li>
-                                <li><a href="https://beta-school.onesttech.com/page/terms_conditions">Terms &amp;
+                                <li><a href="terms_conditions.html">Terms &amp;
                                         Conditions</a></li>
-                                <li><a href="https://beta-school.onesttech.com/page/our_missions">Our Missions</a></li>
-
+                                <li><a href="our_missions.html">Our Missions</a></li>
+    
                             </ul>
                         </div>
                     </div>
-
+    
                     <div class="col-xl-4 col-lg-4  col-md-6">
                         <div class="footer_widget">
                             <div class="footer_title">
@@ -460,16 +460,15 @@
                             <div class="subcribe-form mb_20 theme_mailChimp2">
                                 <form action="" method="get" class="subscription relative">
                                     <input name="email" class="email form-control" placeholder="Type Email Address"
-                                        onfocus="this.placeholder = ''"
-                                        onblur="this.placeholder = 'Type e-mail address…'" required="" type="email">
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Type e-mail address…'"
+                                        required="" type="email">
                                     <button type="submit" class="submit-btn">Subscribe</button>
                                 </form>
                             </div>
                             <div class="social__Links">
                                 <a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
                                 <a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
-                                <a target="_blank" href="https://www.pinterest.com"><i
-                                        class="fab fa-pinterest-p"></i></a>
+                                <a target="_blank" href="https://www.pinterest.com"><i class="fab fa-pinterest-p"></i></a>
                                 <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -499,14 +498,25 @@
         </a>
     </div>
     <!--/ UP_ICON -->
-
+    
+    <!-- Overlay Start -->
+    <!-- <div id="imageOverlay">
+            <button id="closeBtn" class="btn btn-light btn-sm theme_btn">Close ✖</button>
+            <img src="./img/Notification-A11.jpeg" alt="Centered Image">
+        </div> -->
+    <!-- Overlay end -->
+    
     <!--ALL JS SCRIPTS -->
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <!-- <script src="./js/jquery-1.11.0.min.js"></script> -->
     <script src="./js/vendor/jquery-3.4.1.min.js"></script>
+    
     <script src="./js/vendor/popper.min.js"></script>
     <script src="./js/vendor/bootstrap.min.js"></script>
-
+    
     <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/scripts.js"></script>
     <script src="./js/isotope.pkgd.min.js"></script>
     <script src="./js/waypoints.min.js"></script>
     <script src="./js/jquery.counterup.min.js"></script>
@@ -519,7 +529,7 @@
     <script src="./js/jquery.ajaxchimp.min.js"></script>
     <script src="./js/parallax.js"></script>
     <script src="./js/mail-script.js"></script>
-
+    
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7nx22ZmINYk9TGiXDEXGVxghC43Ox6qA"></script>
     <script src="./js/map.js"></script>
     <script src="./js/theme.js"></script>

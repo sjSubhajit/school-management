@@ -562,9 +562,9 @@ label {
 
 @media (min-width: 1470px) {
   /* line 403, ../../../../../laragon/www/onestschool-frontend/scss/_reset.scss */
-  .container {
+  /* .container {
     max-width: 1464px;
-  }
+  } */
 }
 
 /* line 416, ../../../../../laragon/www/onestschool-frontend/scss/_reset.scss */
@@ -19310,7 +19310,7 @@ html[dir="rtl"] a.arrow_btns i {
     background-position: center center;
   }
 }
-.statement_area {
+.admission_area {
   color: #fff !important;
   background-attachment: fixed;
   background-position: center;
